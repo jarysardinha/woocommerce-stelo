@@ -4,7 +4,7 @@ Plugin Name: Stelo para Woocommerce
 Plugin URI: http://www.stelo.com.br/
 Description: Esta extensão tem por objetivo integrar o método de pagamento do Woocommerce com a Stelo
 Version: 1
-Author: Stelo S/A
+Author: Jary Fernandes Sardinha Jr
 Author URI: http://www.stelo.com.br/
 */
 if ( ! class_exists( 'WC_Stelo' ) ) :
