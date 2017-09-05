@@ -1,12 +1,15 @@
 <?php
 function stelo_get_template( $filename, $data = array(), $return = false ) {
+	$filename = apply_filters( 'woocommerce_stelo_template_file', STELO_PATH . 'templates/' . $filename, $filename, $data, $return );
+	$data = apply_filters( 'woocommerce_stelo_template_data', $data, $filename );
+
 	extract( $data );
 
 	if ( $return ) {
 		ob_start();
 	}
 
-	include STELO_PATH . 'templates/' . $filename;
+	include $filename;
 
 	if ( $return ) {
 		$content = ob_get_contents();
