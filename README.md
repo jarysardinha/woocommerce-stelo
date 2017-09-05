@@ -5,7 +5,7 @@ With this plugin you will be able to integrate your WooCommerce store with Stelo
 
 Currently working for api version 1.10
 
-To use the plugin, just extract the files inside the "wp-content/plugins" of your WordPress installation. Go inside the WooCommerce configuration panel and select "Stelo" paymento method. Update the settings according to your needs.
+To use the plugin, just extract the files inside the "wp-content/plugins/woocommerce-stelo" (create the woocommerce-stelo folder if you don't have it) of your WordPress installation. Go inside the WooCommerce configuration panel and select "Stelo" paymento method. Update the settings according to your needs.
 
 Be sure to have in hand you Client ID and Client Secret or the module won't work.
 
