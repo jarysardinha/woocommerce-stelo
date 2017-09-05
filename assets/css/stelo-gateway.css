@@ -1,0 +1,211 @@
+#stelo-payment-form {
+    /*display: none;*/
+}
+
+#stelo-payment-form .brand-img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    max-height: none !important;}
+
+#stelo-payment-methods:before,
+#stelo-payment-methods:after,
+#stelo-bank-transfer-form ul:before,
+#stelo-bank-transfer-form ul:after {
+    content: " ";
+    display: table;
+}
+
+#stelo-payment-methods:after,
+#stelo-bank-transfer-form ul:after {
+    clear: both;
+}
+
+#stelo-payment-methods,
+#stelo-bank-transfer-form ul {
+    list-style: none;
+    margin: 0 0 10px;
+    padding: 0;
+    *zoom: 1;
+}
+
+#stelo-payment-methods input[type="radio"],
+#stelo-bank-transfer-form ul input[type="radio"] {
+    display: none;
+}
+
+/* Payment methods */
+.woocommerce #payment ul.payment_methods li #stelo-payment-methods li,
+.woocommerce-page #payment ul.payment_methods li #stelo-payment-methods li {
+    border-color: transparent transparent #bbb;
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.woocommerce #payment ul.payment_methods li .woocommerce-stelo-form-storefront #stelo-payment-methods li,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-stelo-form-storefront #stelo-payment-methods li {
+    padding: 5px !important;
+}
+
+.woocommerce #payment ul.payment_methods li #stelo-payment-methods label,
+.woocommerce-page #payment ul.payment_methods li #stelo-payment-methods label {
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+/* Bank transfer items */
+.woocommerce #payment ul.payment_methods li #stelo-payment-methods li.active,
+.woocommerce-page #payment ul.payment_methods li #stelo-payment-methods li.active {
+    border-color: #bbb #bbb transparent;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.woocommerce #payment ul.payment_methods li #stelo-bank-transfer-form p,
+.woocommerce-page #payment ul.payment_methods li #stelo-bank-transfer-form p {
+    margin-bottom: .5em;
+}
+
+.woocommerce #payment ul.payment_methods li #stelo-bank-transfer-form li,
+.woocommerce-page #payment ul.payment_methods li #stelo-bank-transfer-form li {
+    border: none;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+}
+
+.woocommerce #payment ul.payment_methods li #stelo-bank-transfer-form label,
+.woocommerce-page #payment ul.payment_methods li #stelo-bank-transfer-form label {
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.woocommerce #payment ul.payment_methods li #stelo-bank-transfer-form i,
+.woocommerce-page #payment ul.payment_methods li #stelo-bank-transfer-form i {
+    background-color: transparent;
+    background-image: url("../../images/transparent-checkout-icons.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 51px;
+    margin: 0 auto;
+    width: 51px;
+}
+
+#stelo-icon-bradesco {
+    background-position: 0 -51px;
+}
+
+#stelo-icon-itau {
+    background-position: -204px -51px;
+}
+
+#stelo-icon-bancodobrasil {
+    background-position: -51px -51px;
+}
+
+#stelo-icon-banrisul {
+    background-position: -102px -51px;
+}
+
+#stelo-icon-hsbc {
+    background-position: -153px -51px;
+}
+
+#stelo-bank-transfer-form li.active #stelo-icon-bradesco,
+#stelo-icon-bradesco:hover {
+    background-position: 0 0;
+}
+
+#stelo-bank-transfer-form li.active #stelo-icon-itau,
+#stelo-icon-itau:hover {
+    background-position: -204px 0;
+}
+
+#stelo-bank-transfer-form li.active #stelo-icon-bancodobrasil,
+#stelo-icon-bancodobrasil:hover {
+    background-position: -51px 0;
+}
+
+#stelo-bank-transfer-form li.active #stelo-icon-banrisul,
+#stelo-icon-banrisul:hover {
+    background-position: -102px 0;
+}
+
+#stelo-bank-transfer-form li.active #stelo-icon-hsbc,
+#stelo-icon-hsbc:hover {
+    background-position: -153px 0;
+}
+
+/* Banking ticket */
+#stelo-icon-ticket {
+    background: transparent url("../../images/transparent-checkout-icons.png") no-repeat top right;
+    display: block;
+    float: left;
+    height: 51px;
+    margin: 0 10px 5px 0;
+    width: 51px;
+}
+
+.woocommerce #payment ul.payment_methods li .woocommerce-stelo-form-storefront p#stelo-card-holder-name-field,
+.woocommerce #payment ul.payment_methods li .woocommerce-stelo-form-storefront p#stelo-card-number-field,
+.woocommerce #payment ul.payment_methods li .woocommerce-stelo-form-storefront p#stelo-card-installments-field,
+.woocommerce #payment ul.payment_methods li .woocommerce-stelo-form-storefront p#stelo-card-holder-cpf-field,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-stelo-form-storefront p#stelo-card-holder-name-field,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-stelo-form-storefront p#stelo-card-number-field,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-stelo-form-storefront p#stelo-card-installments-field,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-stelo-form-storefront p#stelo-card-holder-cpf-field {
+    float: none;
+    width: 100%;
+}
+
+.woocommerce-stelo-form-storefront .woocommerce-error ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 500px) {
+    .woocommerce #payment ul.payment_methods li #stelo-payment-methods li,
+    .woocommerce-page #payment ul.payment_methods li #stelo-payment-methods li {
+        border: none;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .woocommerce #payment ul.payment_methods li #stelo-payment-methods li.active,
+    .woocommerce-page #payment ul.payment_methods li #stelo-payment-methods li.active {
+        border: none;
+    }
+
+    #stelo-payment-methods input[type="radio"] {
+        display: inline;
+    }
+
+    .woocommerce #payment ul.payment_methods li #stelo-credit-card-form p.form-row.form-row-first,
+    .woocommerce #payment ul.payment_methods li #stelo-credit-card-form p.form-row.form-row-last,
+    .woocommerce-page #payment ul.payment_methods li #stelo-credit-card-form p.form-row.form-row-first,
+    .woocommerce-page #payment ul.payment_methods li #stelo-credit-card-form p.form-row.form-row-last {
+        float: none;
+        width: 96%;
+    }
+}
