@@ -251,7 +251,7 @@ class Stelo_API {
 					'completed'
 				) )) {
 
-					$order->update_status ( 'on-hold', __ ( 'O pagamento foi processado, aguardando confirmação do banco.', 'woocommerce-stelo' ) );
+					$order->update_status ( 'on-hold', __( 'The payment was processed and is pending on the banks confirmation.', 'woocommerce-stelo' ) );
 
 					$order_updated = true;
 				}
@@ -263,7 +263,7 @@ class Stelo_API {
 					'completed'
 				) )) {
 
-					$order->update_status ( 'on-hold', __ ( 'O pagamento foi aprovado parcialmente.', 'woocommerce-stelo' ) );
+					$order->update_status ( 'on-hold', __ ( 'The payment was partially approved.', 'woocommerce-stelo' ) );
 
 					$order_updated = true;
 				}
@@ -273,7 +273,7 @@ class Stelo_API {
 					'processing',
 					'completed'
 				) )) {
-					$order->add_order_note ( __ ( 'O pagamento foi confirmado com sucesso.', 'woocommerce-stelo' ) );
+					$order->add_order_note ( __ ( 'The payment was successfully approved.', 'woocommerce-stelo' ) );
 
 					// Changing the order for processing and reduces the stock.
 					$order->payment_complete ();
@@ -282,28 +282,28 @@ class Stelo_API {
 				break;
 
 			case 'n' :
-				$order->update_status ( 'cancelled', __ ( 'O pagamento não foi aprovado.', 'woocommerce-stelo' ) );
+				$order->update_status ( 'cancelled', __ ( 'The payment was not approved.', 'woocommerce-stelo' ) );
 				$order_updated = true;
 
 				break;
 			case 'ni' :
-				$order->update_status ( 'cancelled', __ ( 'O pagamento não foi aprovado pelo emissor do cartão.', 'woocommerce-stelo' ) );
+				$order->update_status ( 'cancelled', __ ( 'The payment was not approved by the bank.', 'woocommerce-stelo' ) );
 				$order_updated = true;
 				break;
 
 			case 'c' :
-				$order->update_status ( 'cancelled', __ ( 'O pagamento foi cancelado, não houve cobrança.', 'woocommerce-stelo' ) );
+				$order->update_status ( 'cancelled', __ ( 'The payment was cancelled, no charge was made.', 'woocommerce-stelo' ) );
 				$order_updated = true;
 				break;
 
 			case 's' :
-				$order->update_status ( 'refunded', __ ( 'O pagamento foi reembolsado.', 'woocommerce-stelo' ) );
+				$order->update_status ( 'refunded', __ ( 'The payment was refunded.', 'woocommerce-stelo' ) );
 				$this->send_email ( sprintf ( __ ( 'Invoice for order %s was refunded', 'woocommerce-stelo-tc' ), $order->get_order_number () ), __ ( 'Invoice refunded', 'woocommerce-stelo-tc' ), sprintf ( __ ( 'Order %s has been marked as refunded by Stelo.', 'woocommerce-stelo-tc' ), $order->get_order_number () ) );
 				$order_updated = true;
 
 				break;
 			case 'sp' :
-				$order->update_status ( 'refunded', __ ( 'O pagamento foi reembolsado.', 'woocommerce-stelo' ) );
+				$order->update_status ( 'refunded', __ ( 'The payment was refunded.', 'woocommerce-stelo' ) );
 				$this->send_email ( sprintf ( __ ( 'Invoice for order %s was refunded', 'woocommerce-stelo-tc' ), $order->get_order_number () ), __ ( 'Invoice refunded', 'woocommerce-stelo-tc' ), sprintf ( __ ( 'Order %s has been marked as refunded by Stelo.', 'woocommerce-stelo-tc' ), $order->get_order_number () ) );
 				$order_updated = true;
 

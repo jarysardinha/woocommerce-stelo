@@ -100,7 +100,7 @@
 .woocommerce #payment ul.payment_methods li #stelo-bank-transfer-form i,
 .woocommerce-page #payment ul.payment_methods li #stelo-bank-transfer-form i {
     background-color: transparent;
-    background-image: url("../../images/transparent-checkout-icons.png");
+/*    background-image: url("../../images/transparent-checkout-icons.png"); */
     background-repeat: no-repeat;
     display: block;
     height: 51px;

@@ -1,3 +1,3 @@
-<p><?php _e( 'Obrigado pelo seu pedido, clique no botão abaixo para pagar com a Carteira Digital da Stelo.', 'woocommerce-stelo' ); ?></p>
+<p><?php _e( 'Thank you for your order, click on the button below to pay with Carteira Digital from Stelo.', 'woocommerce-stelo' ); ?></p>
 
-	<a class="button cancel" id="cancel-payment" href="<?php echo esc_url( $cancel_order_url ); ?>"><?php _e( 'Cancelar pedido &amp; restaurar carrinho', 'woocommerce-stelo' ); ?></a> <a id="submit-payment" class="lytebox button alt" data-lyte-options="" href="#"><?php _e( 'Pagar via Stelo', 'woocommerce-stelo' ); ?></a>
+	<a class="button cancel" id="cancel-payment" href="<?php echo esc_url( $cancel_order_url ); ?>"><?php _e( 'Cancel Order &amp; Restore Cart', 'woocommerce-stelo' ); ?></a> <a id="submit-payment" class="lytebox button alt" data-lyte-options="" href="#"><?php _e( 'Pay with Stelo', 'woocommerce-stelo' ); ?></a>

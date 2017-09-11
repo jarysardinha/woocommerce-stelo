@@ -1,0 +1,327 @@
+# Copyright (C) 2017 Jayr F. Sardinha Jr
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Stelo\n"
+"POT-Creation-Date: 2017-09-06 09:06-0300\n"
+"PO-Revision-Date: 2017-09-06 09:05-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-stelo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/functions.php:25
+msgid "The card's BIN was not accepted."
+msgstr ""
+
+#: includes/functions.php:26
+msgid "The card's data are invalid."
+msgstr ""
+
+#: includes/functions.php:27
+msgid ""
+"The was a failure on the authentication with Stelo, verify your credentials"
+msgstr ""
+
+#: includes/functions.php:28
+msgid "The necessary fields or headers were not provided."
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:254
+msgid "The payment was processed and is pending on the banks confirmation."
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:266
+msgid "The payment was partially approved."
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:276
+msgid "The payment was successfully approved."
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:285
+msgid "The payment was not approved."
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:290
+msgid "The payment was not approved by the bank."
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:295
+msgid "The payment was cancelled, no charge was made."
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:300
+#: includes/woocommerce-stelo-api.php:306
+msgid "The payment was refunded."
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:301
+#: includes/woocommerce-stelo-api.php:307
+#, php-format
+msgid "Invoice for order %s was refunded"
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:301
+#: includes/woocommerce-stelo-api.php:307
+msgid "Invoice refunded"
+msgstr ""
+
+#: includes/woocommerce-stelo-api.php:301
+#: includes/woocommerce-stelo-api.php:307
+#, php-format
+msgid "Order %s has been marked as refunded by Stelo."
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:11
+#: includes/woocommerce-stelo-gateway.php:13
+#: includes/woocommerce-stelo-gateway.php:226
+msgid "Stelo"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:12
+msgid "Integrate WooCommerce with Stelo payment method"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:55
+msgid "Stelo Request Authorized"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:60
+msgid "Stelo Request Unauthorized"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:207
+#: includes/woocommerce-stelo-gateway.php:208
+msgid "Notification URL"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:210
+msgid ""
+"Copy this URL and paste it in the Stelo admin panel in order to receive "
+"automatic updates on the payment status"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:217
+msgid "Enabled / Disabled"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:218
+msgid "Enable this payment method"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:223
+msgid "Title"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:225
+msgid "The title your customer will see on checkout."
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:229
+msgid "Description"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:231
+msgid "The description the customer will see during checkout."
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:232
+msgid "Pay with confidence using the Stelo payment system."
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:236
+msgid "Client ID"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:238
+msgid ""
+"This is the \"Client ID\" received from Stelo and will be necessary to "
+"create the payment transaction."
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:241
+msgid "Client Secret"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:243
+msgid ""
+"This is the \"Client Secret\" received from Stelo and will be necessary to "
+"create the payment transaction"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:246
+msgid "Enviroment"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:247
+msgid "Sandbox"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:249
+msgid "Put the extenstion in \"Sandbox\" mode for testing purposes."
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:253
+msgid "Checkout method"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:256
+msgid "Transparent Checkout"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:257
+msgid "Carteira Digital"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:259
+msgid "Choose how you would like to have the customer checkout."
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:263
+msgid "Payment methods"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:266
+#: templates/transparent-checkout.php:6
+msgid "Credit Card"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:267
+#: templates/transparent-checkout.php:10
+msgid "Bankslip"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:269
+msgid ""
+"Select the payment methods that will be used for the transparent checkout "
+"method."
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:272
+msgid "Status for bankslip"
+msgstr ""
+
+#: includes/woocommerce-stelo-gateway.php:275
+msgid ""
+"Select what status the order should go to when the customer selects the "
+"bankslip payment method"
+msgstr ""
+
+#: templates/receipt_page.php:1
+msgid ""
+"Thank you for your order, click on the button below to pay with Carteira "
+"Digital from Stelo."
+msgstr ""
+
+#: templates/receipt_page.php:3
+msgid "Cancel Order &amp; Restore Cart"
+msgstr ""
+
+#: templates/receipt_page.php:3
+msgid "Pay with Stelo"
+msgstr ""
+
+#: templates/thankyou.php:2
+msgid "Print the bankslip"
+msgstr ""
+
+#: templates/thankyou.php:2
+msgid "Please click on the button to print your bankslip"
+msgstr ""
+
+#: templates/thankyou.php:2
+msgid "You can print it and pay on internet banking or any lottery agency."
+msgstr ""
+
+#: templates/thankyou.php:2
+msgid ""
+"After receiving confirmation from the bank, your order will be processed."
+msgstr ""
+
+#: templates/transparent-checkout.php:21
+msgid "Name"
+msgstr ""
+
+#: templates/transparent-checkout.php:21
+msgid "as printed on the card"
+msgstr ""
+
+#: templates/transparent-checkout.php:25
+msgid "Card number"
+msgstr ""
+
+#: templates/transparent-checkout.php:30
+msgid "Exp. Date"
+msgstr ""
+
+#: templates/transparent-checkout.php:31
+msgid "MM / YYYY"
+msgstr ""
+
+#: templates/transparent-checkout.php:34 templates/transparent-checkout.php:35
+msgid "CVC"
+msgstr ""
+
+#: templates/transparent-checkout.php:39
+msgid "Installments"
+msgstr ""
+
+#: templates/transparent-checkout.php:47
+msgid "Owners CPF"
+msgstr ""
+
+#: templates/transparent-checkout.php:52 templates/transparent-checkout.php:66
+#: templates/wallet-checkout.php:3
+msgid "Date of birth"
+msgstr ""
+
+#: templates/transparent-checkout.php:53 templates/transparent-checkout.php:67
+#: templates/wallet-checkout.php:4
+msgid "DD / MM / YYYY"
+msgstr ""
+
+#: templates/transparent-checkout.php:72
+msgid ""
+"The order will be processed after we receive a confirmation from the bank."
+msgstr ""
+
+#: templates/transparent-checkout.php:76
+msgid "Count with the trust and credibility from Stelo"
+msgstr ""
+
+#: woocommerce-stelo.php:73
+#, php-format
+msgid ""
+"The plugin <b>WooCommerce Stelo</b> uses <b>WooCommerce Extra Checkout "
+"Fields for Brazil</b> to work properly. Please install it on this link <a "
+"href=\"%s\">WooCommerce Extra Checkout Fields for Brazil</a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Stelo"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://github.com/jarysardinha/woocommerce-stelo"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds the Stelo payment method to your WooCommerce store."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jary Fernandes Sardinha Jr"
+msgstr ""

@@ -22,10 +22,10 @@ function stelo_get_template( $filename, $data = array(), $return = false ) {
 
 function stelo_register_card_error() {
 	$errorMessage = array(
-		101 => "O BIN do cartão não foi aceito.",
-		102 => "Os dados do cartão estão inválidos.",
-		401 => "Houve falha na autenticação com a Stelo, verifique suas credenciais.",
-		400 => "Os campos ou cabeçalhos obrigatórios não foram fornecidos."
+		101 => __( 'The card\'s BIN was not accepted.', 'woocommerce-stelo' ),
+		102 => __( 'The card\'s data are invalid.', 'woocommerce-stelo' ),
+		401 => __( 'The was a failure on the authentication with Stelo, verify your credentials', 'woocommerce-stelo' ),
+		400 => __( 'The necessary fields or headers were not provided.', 'woocommerce-stelo' )
 	);
 
 	return $errorMessage;

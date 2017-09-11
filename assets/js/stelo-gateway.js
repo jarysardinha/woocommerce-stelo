@@ -1,15 +1,17 @@
 jQuery(function($) {
     var stelo = {
         init: function() {
-            this.initMasks();
+            if (typeof stelo_params != 'undefined') {
+                this.initMasks();
 
-            if (stelo_params.methodType == 'transparent') {
-                this.initForm();
-                this.initCardToken();
-            }
+                if (stelo_params.methodType == 'transparent') {
+                    this.initForm();
+                    this.initCardToken();
+                }
 
-            if (stelo_params.methodType == 'wallet') {
-                this.initLightbox();
+                if (stelo_params.methodType == 'wallet') {
+                    this.initLightbox();
+                }
             }
         },
         initLightbox: function() {
